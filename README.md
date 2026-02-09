@@ -11,18 +11,24 @@ Cover
 2. Nama Mempelai
 3. Nama Orang Tua
 4. Tanggal
-5. Tujuan
+    - Hari
+    - Tanggal
+    - Bulan
+    - Tahun
+5. Tujuan 
 
 Slide 2
 1. Bismillah
 2. Ucapan syukur
-3. Doa
-4. Nama mempelai beserta orang tua
-5. Kalimat undangan
+3. Nama mempelai beserta orang tua
+4. Kalimat undangan
 
 Slide 3
 1. Akad
-2. Tanggal
-3. Lokasi
-4. Waktu
-5. Resepsi (Sama dengan Akad)
+    - Jadwal Akad
+    - Lokasi
+    - Waktu
+2. Resepsi
+    - Jadwal Resepsi
+    - Lokasi
+    - Waktu
