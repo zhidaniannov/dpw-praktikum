@@ -1,12 +1,12 @@
 "# dpw-praktikum" 
-Zhidan Iannov Saaba
-Suci Septy Rahmadina
+#Zhidan Iannov Saaba
+#Suci Septy Rahmadina
 
 #Link Referensi Undangan: 
-https://mirroradvertising.id/wp-content/uploads/2020/03/undangan-nikah-online-scaled.jpg
+#https://mirroradvertising.id/wp-content/uploads/2020/03/undangan-nikah-online-scaled.jpg
 
-#Breakdown
-Cover
+## Breakdown
+## Cover
 1. Judul
 2. Nama Mempelai
 3. Nama Orang Tua
@@ -17,13 +17,13 @@ Cover
     - Tahun
 5. Tujuan 
 
-Slide 2
+## Slide 2
 1. Bismillah
 2. Ucapan syukur
 3. Nama mempelai beserta orang tua
 4. Kalimat undangan
 
-Slide 3
+## Slide 3
 1. Akad
     - Jadwal Akad
     - Lokasi
@@ -32,3 +32,13 @@ Slide 3
     - Jadwal Resepsi
     - Lokasi
     - Waktu
+
+## Wireflow
+1. Pengguna membuka website
+2. Pengguna melihat cover
+3. Pengguna melihat detail
+4. Admin
+    - Login
+    - Dashboard
+    - Edit (Mengubah nama mempelai)
+    - Menambahkan tujuan undangan
