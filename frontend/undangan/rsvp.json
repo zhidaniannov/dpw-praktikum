@@ -1,0 +1,16 @@
+[
+  {
+    "nama": "Budi Santoso",
+    "status": "Hadir",
+    "jumlah": 2,
+    "pesan": "Selamat menempuh hidup baru",
+    "timestamp": "2027-03-01T10:12:33.000Z"
+  },
+  {
+    "nama": "Siti Aminah",
+    "status": "Tidak Hadir",
+    "jumlah": 0,
+    "pesan": "Semoga menjadi keluarga sakinah",
+    "timestamp": "2027-03-02T08:21:15.000Z"
+  }
+]

@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+.judul {
+    background-color: cyan;
+}
+.bagian {
+    color: white;
+    background-color: blue;
+}
+
+p {
+    text-align: justify;
+}
+
+p.solid {
+    padding: 5px;
+    border-style: solid;
+    border-color: red;
+}
+
+span.hl-indo {
+    background-color: yellow;
+}
+
+p::first-line {
+    background-color: limegreen;
+}
+
+/* span.hl-hijau {
+    background-color: limegreen;
+} */
+
+span.underline {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+span.tebal-biru {
+    font-weight: bold;
+    color: blue;
+}
+
+span.tebal {
+    font-weight: bold;
+}
+
+a {
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr {
+    font-weight: bold;
+    color: red;
+}
+
+ol.hl-pancasila {
+    list-style-position: inside;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+span.hl-li {
+    background-color: yellow;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}

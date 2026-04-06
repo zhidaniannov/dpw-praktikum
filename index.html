@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home - Tugas Web</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 350px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .btn {
+            display: block;
+            text-decoration: none;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .html { background: #e34c26; color: white; }
+        .css  { background: #264de4; color: white; }
+        .js   { background: #f0db4f; color: black; }
+
+        .btn:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777;
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <h1>Menu Tugas</h1>
+
+        <a href="frontend/dashboard/dashboard.html" class="btn html" target="_blank">Dashboard</a>
+        <a href="frontend/undangan/undangan.html" class="btn css" target="_blank">Undangan</a>
+        <a href="aktivitas/tugas_html.html" class="btn html" target="_blank">Tugas HTML</a>
+        <a href="aktivitas/tugas_css.html" class="btn css" target="_blank">Tugas CSS</a>
+        <a href="aktivitas/tugas_js.html" class="btn js" target="_blank">Tugas JavaScript</a>
+
+        <footer>
+            &copy; 2026 Zhidan Iannov Saaba - All rights reserved.
+        </footer>
+    </div>
+
 </body>
 </html>
