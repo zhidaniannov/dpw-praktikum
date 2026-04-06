@@ -1,6 +1,11 @@
 {
   "dependencies": {
     "@tailwindcss/cli": "^4.2.2",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4.2.2"
-  }
+  },
+  "scripts": {
+  "convert": "node convert.js"
+}
+  
 }
