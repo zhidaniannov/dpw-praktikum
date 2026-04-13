@@ -5,7 +5,6 @@
     "tailwindcss": "^4.2.2"
   },
   "scripts": {
-  "convert": "node convert.js"
-}
-  
+    "convert": "node convert.js"
+  }
 }
