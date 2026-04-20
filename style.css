@@ -1,0 +1,162 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Playfair Display', serif;
+  background: #2e241b;
+  overflow: hidden;
+}
+
+/* COVER */
+.cover {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top, #4a3a2c, #1f1812);
+  color: #f5ecd9;
+}
+
+/* DARK OVERLAY */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, transparent 40%, rgba(0,0,0,0.7));
+}
+
+/* CONTENT */
+.content {
+  position: relative;
+  text-align: center;
+  max-width: 400px;
+  padding: 20px;
+  z-index: 2;
+}
+
+/* ORNAMENT */
+.ornament {
+  font-size: 24px;
+  color: #c9a84c;
+  margin-bottom: 10px;
+}
+
+.ornament.bottom {
+  margin-top: 20px;
+  transform: rotate(180deg);
+}
+
+/* LABEL */
+.label {
+  font-family: 'IM Fell English', serif;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #cbb899;
+  margin-bottom: 10px;
+}
+
+/* NAMES */
+.names {
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  animation: fadeUp 1s ease forwards;
+}
+
+.names span {
+  display: block;
+  font-size: 28px;
+  font-family: 'IM Fell English';
+  color: #c9a84c;
+}
+
+/* DATE */
+.date {
+  letter-spacing: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #e6d8b0;
+}
+
+/* LINE */
+.line {
+  width: 100px;
+  height: 1px;
+  margin: 20px auto;
+  background: linear-gradient(to right, transparent, #c9a84c, transparent);
+}
+
+/* GUEST */
+.guest-label {
+  font-size: 12px;
+  color: #b8a07a;
+}
+
+.guest {
+  font-family: 'IM Fell English';
+  font-size: 20px;
+  color: #f0d98a;
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #c9a84c;
+  color: #2e241b;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  background: #e8d08a;
+}
+
+/* VINYL */
+.vinyl {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  right: -80px;
+  bottom: -80px;
+
+  background: repeating-radial-gradient(
+    circle,
+    #111 0px,
+    #111 2px,
+    #222 3px,
+    #111 5px
+  );
+
+  opacity: 0.2;
+  animation: spin 20s linear infinite;
+}
+
+/* ANIMATION */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
